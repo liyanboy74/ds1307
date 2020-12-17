@@ -1,3 +1,7 @@
+/*
+ By Liyanboy74
+ https://github.com/liyanboy74
+*/
 
 #ifndef __DS1307_H
 #define __DS1307_H
