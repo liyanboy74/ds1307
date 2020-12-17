@@ -1,7 +1,7 @@
 #include "ds1307.h"
 
-//uncomment for use Softwer I2C
-#define USE_SOFT_I2C			
+//uncomment for use Softwer I2C for STM32
+//#define USE_SOFT_I2C			
 
 //include I2C Lib
 #ifdef USE_SOFT_I2C
