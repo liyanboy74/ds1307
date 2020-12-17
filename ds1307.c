@@ -1,3 +1,8 @@
+/*
+ By Liyanboy74
+ https://github.com/liyanboy74
+*/
+
 #include "ds1307.h"
 
 //uncomment for use Softwer I2C for STM32
@@ -11,13 +16,11 @@
 #endif
 
 
-
 void ds1307_init()
 {
 #ifdef USE_SOFT_I2C
 	SW_I2C_initial();
 	i2c_port_initial(SW_I2C1);
-	set_ds1307_sqw(0,0,0);
 #else
 	i2c_init();
 #endif
